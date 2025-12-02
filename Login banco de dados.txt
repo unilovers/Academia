@@ -1,0 +1,5 @@
+JDBC URL: jdbc:h2:mem:academia
+
+Username: sa
+
+Password: unifil
