@@ -23,3 +23,15 @@ SELECT COUNT(*) FROM alunos WHERE ATIVO = TRUE;
 SELET * FROM MATRICULAS
 
 DELETE FROM matriculas WHERE aluno_id = 3;
+
+
+
+
+INSERT INTO matriculas (id, aluno_id)
+VALUES (5, 5);
+
+INSERT INTO alunos (id, nome, email, telefone, data_nascimento, ativo)
+VALUES (5, 'Aluno Teste', 'teste@example.com', '11999999999', '2000-01-01', true);
+
+INSERT INTO matriculas (id, aluno_id)
+VALUES (5, 5);
